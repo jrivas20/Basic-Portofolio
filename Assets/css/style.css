@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    position: relative;
+    min-height: 100%
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/w.png");
+    margin:0 0 80px;
+    padding: 0px;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+header{
+    background-color: #4aaaa5;
+    border-color:#cccccc;
+    height: 90px;
+    width: 100px;
+    position: relative;
+    bottom-bottom: 2px;
+}
+
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+
+.html{
+    height: 100;
+
+}
+
+main{
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 50px;
+    min-height: 90%;
+    background-image: url("../images/w.png");
+    clear: both;
+    position: relative;
+}
+   
+
+
+#navbh{
+    font-size: 16px;
+}
+
+
+#navb{
+    position: absolute;
+    background: #fff;
+    top: 0px;
+    right: 100px;
+    padding: 33px 36;
+    text-align: center;
+    z-index: 2;
+    float: right;
+}
+
+
+#nav li{
+    padding: 0 18;
+    font-size: 12px;
+    color: #777;
+
+}
+
+
+footer{
+    background-color: #666666;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    border-top: 5px solid #4aaaa5;
+    bottom:0;
+    text-align: center;
+
+}
+
+h1, button{
+    font-size: 14px;
+    font-weight: bold;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    float: left;
+}
+
+img{
+    height: 100px;
+    width:100px;
+}
+
+label {
+    color:#777;
+    line-height: 0px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 1%;
+    border: 1px solid #ddd;
+}
+
+input {
+    color: #ccc;
+    width: 98%;
+    padding: 5px 1%;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+button {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding:15px 30px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.imgContainer{
+    position: relative;
+    height:250px;
+    width:300px;
+    margin-bottom: 30px
+}
+.imgContainer img {
+    position:relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
+}
+.caption{
+    position: absolute;
+    bottom: 10%;
+    font-size: 18px;
+    background: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 20px;
+    width:90%;
+    z-index:2;
+    padding:5%;
+    text-align: center; 
+}
+.imgContainerRight {
+    float: right;
+}
+
+
+
+.Petare {
+    position: relative;
+    width: 650px;
+    padding:  30px 30px;
+    top: 0;
+    left:50px;
+    float:left;
+    background: #fff;
+    border: 2px solid #ddd;
+    overflow: auto;
+    margin:50px;
+    z-index: 2;
+}
+.Coche h2{
+    font-size: 23px;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#time{
+    float:left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 200px;
+}
+.Coche p{
+    line-height: 25px;
+    color: #777777;
+    text-indent: 25px;
+}
+
+
+
+.Coche {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    right: 0;
+    top:0;
+    float: right;
+    background: #fff;
+    border: 2px solid #ddd;
+    margin:50px;
+    margin-right: 100px;
+    z-index: 1;
+}
+
+.Coche h2{
+    font-size: 23px;
+    padding: 15px;
+    border-bottom: 2px solid #ddd;
+    clear: both;
+    margin-bottom: 30px;;
+
+fot{
+    color: #ccc;
+    font-size: 12px;
+    padding:19px;
+
+}
+
+
+
